@@ -39,7 +39,6 @@ class Queue<T>{
 
   pop(): T | undefined {
     if (this.isEmpty()) {
-      this.last == null;
       return;
     }
 
